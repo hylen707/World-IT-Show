@@ -1,0 +1,14 @@
+{
+  "source_id": "S01",
+  "retrieved_on": "2026-10-28",
+  "retrieval_method": "Public Google document text export; provided link",
+  "original_path": "evidence/original.txt",
+  "original_sha256": "bb56c40759020f9c63efb574d6ad61d4c19896fecf501e8fa82e8c69998560e0",
+  "original_bytes": 2890,
+  "normalized_derivative": "evidence/source-numbered.txt",
+  "normalization": "Remove UTF-8 BOM for reading; CRLF/CR become LF; prefix 1-based line numbers; original bytes unchanged.",
+  "author": null,
+  "activity_date": null,
+  "document_revision": null,
+  "limitations": "Export does not establish authorship, attendance, hours, revision date, or presence of non-text images."
+}

@@ -1,0 +1,43 @@
+001 | Company Research Report: Graphene Square Inc.
+002 | 1. Overview of Graphene: The Dream Material
+003 | Graphene is a 2D nanomaterial with a single-layer honeycomb structure of carbon atoms, discovered in 2004. It is widely recognized as a pivotal foundational material poised to drive disruption and innovation across modern industrial sectors.
+004 | 
+005 | 
+006 | Property Dimension
+007 | 	Performance Metric & Description
+008 | 	Mechanical Strength
+009 | 	Over 200 times stronger than structural steel
+010 | 	Thermal Conductivity
+011 | 	More than twice the thermal conductivity of natural diamond
+012 | 	Transparency & Form
+013 | 	Highly transparent optical transmission coupled with an ultra-lightweight profile
+014 | 	Specific Surface Area
+015 | 	1 gram spans approximately 7,140 m² (equivalent to a regulation soccer field)
+016 | 	2. Company Profile
+017 | Attribute
+018 | 	Details
+019 | 	Company Name
+020 | 	Graphene Square Inc.
+021 | 	Founded
+022 | 	2012 (Advanced technology-based venture enterprise)
+023 | 	Core Business
+024 | 	Synthesis and mass production of large-area CVD graphene, thermal consumer appliances, display/semiconductor components
+025 | 	Corporate Vision
+026 | 	Transforming daily routines and advancing living standards via deep-tech graphene commercialization
+027 | 	3. Core Technology
+028 | Chemical Vapor Deposition (CVD)
+029 | * Industrial Mass Production: Developed the world’s first roll-to-roll continuous large-area CVD production methodology.
+030 | * Synthesis Precision: Decomposes gaseous hydrocarbon precursors inside high-temperature thermal chambers to synthesize pristine, defect-free monolayer graphene at scale.
+031 | * Commercial Scalability: Establishes a reproducible manufacturing pipeline that successfully bridges the historical gap between laboratory synthesis and full-scale industrial supply.
+032 | 4. Key Products
+033 | Graphene Multi-Cooker
+034 | * Premium culinary device powered by proprietary planar graphene surface heating elements.
+035 | * Ensures rapid, edge-to-edge heat distribution with superior energy efficiency compared to legacy resistive coils.
+036 | Graphene Radiator
+037 | * State-of-the-art space heating unit generating clean radiant warmth without open flames, convection blowers, or visible coils.
+038 | * Operates with an exterior surface safety ceiling of 80°C to eliminate burn hazards.
+039 | * Leverages high optical transparency to project customized holographic display visuals directly onto the emitter glass.
+040 | 5. Business Outlook & Strategy
+041 | * Appliance Lineup Expansion: Accelerating global commercialization and retail rollout across consumer lifestyle categories, headlined by intelligent multi-cookers and decorative radiant panels.
+042 | * Consumer Mass Adoption: Systematically transitioning nanomaterial technology out of academic research settings into high-utility B2C appliances.
+043 | * High-Value Industrial Integration: Expanding commercial footprint into Tier-1 supply chains for electric vehicle electronics, high-efficiency display heat spreaders, and advanced semiconductor packaging.
