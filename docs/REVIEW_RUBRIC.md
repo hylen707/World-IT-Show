@@ -1,6 +1,6 @@
-# EC4 review rubric
+# Research quality review
 
-This is a project quality rubric, not an admissions scoring model or a statement of any university's requirements.
+This rubric reviews the strength and inspectability of the research. Contribution provenance is assessed separately from technical quality.
 
 | Dimension | Review question | Strong evidence | Insufficient substitute |
 | --- | --- | --- | --- |
@@ -16,4 +16,4 @@ This is a project quality rubric, not an admissions scoring model or a statement
 
 ## Review sequence
 
-Read the source inventory first. Then inspect each claim's evidence and counterargument. Review project quality independently from the student's verified contribution. Only then draft a short activity description using facts that survive both checks.
+Read the source inventory first. Then inspect each claim's evidence and counterargument. Review project quality independently from the student's verified contribution. Record only conclusions and contribution statements supported by both checks.

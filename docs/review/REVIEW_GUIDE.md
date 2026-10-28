@@ -1,6 +1,6 @@
-# Student review and application evidence map
+# Technical and contribution review guide
 
-## Neutral factual compression — not a submission response
+## Neutral research summary
 
 **English:** The supplied Graphene Square report covers graphene properties, CVD production, and heating appliances. This repository adds a retrospective evidence audit, an area-convention check, and an illustrative task-energy model. Student authorship, original activity context, and independent technical understanding require verification before any personal accomplishment is described.
 
@@ -10,14 +10,14 @@
 
 | Potential quality | Existing evidence | Current personal-claim limit |
 | --- | --- | --- |
-| Focused inquiry | [Research report](../analysis/REPORT.md) and source-specific questions | The audit question was developed retrospectively |
-| Source criticism | [Claim ledger](../evidence.json), C02–C08 | Do not say the student performed these checks without verification |
-| Quantitative reasoning | [Inputs](../analysis/model-inputs.json), [code](../tools/analyze.py), [results](../analysis/results.json) | Illustrative calculation, not experimental performance |
-| Reproducibility | [Validator](../tools/validate.py), [mutation tests](../tests/test_evidence.py) | Tool execution is distinct from original activity ownership |
+| Focused inquiry | [Research report](../../analysis/REPORT.md) and source-specific questions | The audit question was developed retrospectively |
+| Source criticism | [Claim ledger](../../evidence.json), C02–C08 | Do not say the student performed these checks without verification |
+| Quantitative reasoning | [Inputs](../../analysis/model-inputs.json), [code](../../tools/analyze.py), [results](../../analysis/results.json) | Illustrative calculation, not experimental performance |
+| Reproducibility | [Validator](../../tools/validate.py), [mutation tests](../../tests/test_evidence.py) | Tool execution is distinct from original activity ownership |
 | Personal agency | No located student-verification record yet | No role, hours, leadership, award, or impact claim |
 | Reflection | Student responses not supplied | No invented change of belief |
 
-## Prompts for the student's own writing
+## Questions for independent technical review
 
 1. 원문에서 본인이 직접 작성한 부분은 어디이며, 작성 당시 어떤 자료를 실제로 읽었는가?
 2. 그래핀에 대한 최초의 생각과 지금의 생각이 다르다면, 어느 근거 때문에 달라졌는가? 실제로 그런 변화가 없었다면 만들지 않는다.
