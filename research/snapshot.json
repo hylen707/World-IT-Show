@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-29",
+  "result_type": "analytical_scenarios",
+  "counts": {
+    "sources": 7,
+    "observations": 11,
+    "claims": 10,
+    "entities": 1,
+    "assessments": 4,
+    "benchmarks": 3,
+    "test_definitions": 41
+  },
+  "artifact_sha256": {
+    "analysis/model-inputs.json": "8eb314012f95f4fcf7cefb1696363c7fc9403f3bbe01ff549de19f969e61be34",
+    "analysis/results.json": "7b4721cc11358db283a292621aaa9d1db517c1ebfba6b1bf7ab93396c1a3c80b",
+    "evidence.json": "ca694f27ad8948908e1fb4c6bd7847e878b658cd375d661548ad2ac95952de0f",
+    "evidence/original.txt": "bb56c40759020f9c63efb574d6ad61d4c19896fecf501e8fa82e8c69998560e0",
+    "project.json": "0bb12edf2482c7bb9001ce79b666bd33f92d78d13a328681e7624a45cf880cd1",
+    "reproduce.py": "334d1d48ea6508be60966a4d049f610059104226a396863777d2dba3ea9e633e",
+    "research.py": "bdcc70d4fda7e5ee8879ffe9e7811025f4e548e91193f49188bec4dd6bed252a",
+    "research/assessments.json": "b5fe0d694d675227f937d265c391ccd5f6391cd9972fa1b6274e453ae457ef94",
+    "research/benchmarks.json": "eca1423829987243e9e1ff91f064f90ffd51ac4c6b5e48bb7173ecc471ce05ed",
+    "research/entities.json": "25087f5c15b759450534028843679097b9c8b87ace23d53215df09aefd7eba9f",
+    "research/protocol.json": "bf720690f13fa4eb0016402cc0c1b3e1bef4768f5316dce578e6513eaa4a827b",
+    "research/releases.json": "a9460ebe9bcff81d8cde9b56a80393159fbeb1716e71906fdb874fcf42fc85a6",
+    "tests/test_evidence.py": "e124b0f007f1dc3f65afd59d30bf2c4f3d29a3dcd350d535ccd9c62e64ee772b",
+    "tests/test_research.py": "e6dcdd84a8e3be3b244a0a7c9b7333d71122e251f48d218e50222de9210a1d7e",
+    "tools/analyze.py": "8e5644a386748530520288210360d342584a643191092356cc775402684d09fb",
+    "tools/validate.py": "ffe251696724771a26a5cd7e4a5c96635a0fd2558304a222df87be81bb10fd03"
+  }
+}
