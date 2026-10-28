@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/hylen707/World-IT-Show/blob/main/schemas/project.schema.json",
+  "title": "EC project metadata",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "ec_id",
+    "title",
+    "source_state",
+    "artifact_state",
+    "student_verification",
+    "activity_dates",
+    "hours",
+    "role",
+    "impact",
+    "source_ids"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "ec_id": {
+      "const": "EC4"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_state": {
+      "enum": [
+        "unread",
+        "partial",
+        "read"
+      ]
+    },
+    "artifact_state": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "student_verification": {
+      "enum": [
+        "pending",
+        "verified"
+      ]
+    },
+    "activity_dates": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "hours": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "impact": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^S[0-9]+$"
+      }
+    },
+    "verification_evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^O[0-9]+$"
+      }
+    }
+  }
+}

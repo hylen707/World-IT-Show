@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "ec_id": "EC4",
+  "title": "World IT Show — Graphene Claims, Device Evidence, and Engineering Limits",
+  "source_state": "read",
+  "artifact_state": "draft",
+  "student_verification": "pending",
+  "activity_dates": null,
+  "hours": null,
+  "role": null,
+  "impact": null,
+  "research_question": "Which claims in the Graphene Square company report remain defensible when ideal-material properties are separated from manufactured films, appliance performance, and safety?",
+  "question_status": "retrospective_source_grounded",
+  "scope": "AI-assisted retrospective audit of a 43-line company research report; no new physical experiment or verified student contribution.",
+  "authorship": {
+    "original_source_author": null,
+    "student_contribution": null,
+    "repository_assistance": "AI-assisted organization, drafting, and validation; student review pending"
+  },
+  "related_projects": [
+    {
+      "ec_id": "EC5",
+      "repository": "https://github.com/hylen707/CES2025",
+      "relation": "Companion inquiry; cross-exhibition comparisons require separately verified sources."
+    }
+  ],
+  "source_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07"
+  ]
+}

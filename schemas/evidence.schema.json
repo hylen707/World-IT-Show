@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EC evidence ledger",
+  "type": "object",
+  "required": [
+    "sources",
+    "observations",
+    "claims"
+  ],
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "url",
+        "kind",
+        "access_state"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^S[0-9]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "kind": {
+          "enum": [
+            "original_artifact",
+            "official_reference",
+            "student_record"
+          ]
+        },
+        "access_state": {
+          "enum": [
+            "unread",
+            "partial",
+            "read"
+          ]
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "locator",
+        "summary"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^O[0-9]+$"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "text",
+        "evidence_ids",
+        "source_locators",
+        "reasoning",
+        "counterargument",
+        "limitation",
+        "status"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[CP][0-9]+$"
+        },
+        "kind": {
+          "enum": [
+            "source_observation",
+            "retrospective_analysis",
+            "proposal"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "source_id",
+              "locator"
+            ],
+            "properties": {
+              "source_id": {
+                "type": "string"
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "reasoning": {
+          "type": "string",
+          "minLength": 1
+        },
+        "counterargument": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "proposed",
+            "draft",
+            "supported",
+            "contested",
+            "withdrawn"
+          ]
+        }
+      }
+    }
+  },
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observation"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    }
+  }
+}
