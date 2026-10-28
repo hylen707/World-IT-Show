@@ -1,0 +1,19 @@
+{
+  "mode": "illustrative_sensitivity_not_product_measurement",
+  "area": {
+    "reported_m2_per_g": 7140,
+    "ideal_two_face_m2_per_g": 2630,
+    "reported_source": "S01 L14-L15",
+    "reference_source": "S02 author abstract",
+    "convention": "Two accessible faces of an ideal isolated sheet; one projected face is half."
+  },
+  "thermal": {
+    "assumed_mass_kg": 0.5,
+    "assumed_heat_capacity_J_per_kg_K": 4180,
+    "assumed_temperature_change_K": 60,
+    "assumed_baseline_task_efficiency": 0.5,
+    "assumed_task_efficiencies": [0.4, 0.5, 0.6, 0.7, 0.8],
+    "assumed_powers_W": [600, 1200],
+    "assumption_note": "Every thermal input is an illustrative assumption, not a product specification or experimental value. Constant heat capacity; no phase change; all losses lumped into task efficiency."
+  }
+}
