@@ -24,3 +24,9 @@ Keep observations, analytical assumptions, measured outcomes, and proposed work 
 Describe the research subject, methods, evidence, results, and limitations directly. Omit commentary about drafting processes, preparation tools, or outside writing support unless explicitly requested or required by the destination's rules. Keep source citations and factual contribution boundaries accurate; do not infer independent authorship from an omission.
 
 For authorized routine editorial changes, update the existing branch directly without opening a pull request. Use a concise commit message describing the resulting documentation. Avoid adding administrative cleanup narratives to project documents.
+
+## Versioned research records
+
+Maintain research/entities.json, research/assessments.json and research/protocol.json alongside the core ledger. Keep new release notices separate from implementation test results. Review exact upstream pins and adoption targets when changing research/benchmarks.json.
+
+After meaningful evidence, method or result changes, run python research.py --write and inspect the generated snapshot and README summary. This does not replace a narrative update when the conclusion changes. Run python reproduce.py before publishing. Do not hand-edit generated hashes or turn unknown commercial metrics into unsupported facts.

@@ -59,3 +59,7 @@ An original text export may omit diagrams or supplementary measurements. A found
 | Personal agency | Student-owned drafts, notes, decisions, and explanation | Permit specific contribution claims in a portfolio |
 
 The technical package is inspectable now. The next student contribution should be a defensible choice—correcting a number, narrowing a claim, or executing a feasible protocol—not merely endorsing the report.
+
+## Company and technology research extension
+
+The [company brief](../research/COMPANY_BRIEF.md) connects the technical findings to commercialization questions without introducing unsupported financial metrics. [Technology decisions](../research/assessments.json) identify the evidence stage and next gate for each material/device question. [Method benchmarking](../research/BENCHMARKS.md) records the exact external practices adopted. Run `python reproduce.py` from the repository root to verify the integrated package.
