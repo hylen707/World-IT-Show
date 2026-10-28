@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-29",
+  "result_type": "analytical_scenarios",
+  "source_roles": {
+    "S01": "supplied_report",
+    "S02": "research_abstract",
+    "S03": "research_abstract",
+    "S04": "research_abstract",
+    "S05": "vendor_primary",
+    "S06": "vendor_primary",
+    "S07": "standard_scope"
+  },
+  "decision_rule": "A research action is justified by located claims and a concrete next evidence gate; it is not a product maturity or safety rating.",
+  "comparison_rule": "Compare only a matched function, task endpoint, version and measurement definition. Preserve non-comparable and unknown outcomes.",
+  "freshness_rule": "Review dates are dated snapshots, not ongoing monitoring. Pin a release and complete test configuration before revising an implementation claim.",
+  "tracked_artifacts": [
+    "evidence.json",
+    "project.json",
+    "research/benchmarks.json",
+    "research/protocol.json",
+    "research/entities.json",
+    "research/assessments.json",
+    "research/releases.json",
+    "research.py",
+    "reproduce.py",
+    "tests/test_research.py",
+    "analysis/model-inputs.json",
+    "analysis/results.json",
+    "tools/analyze.py",
+    "tools/validate.py",
+    "tests/test_evidence.py",
+    "evidence/original.txt"
+  ]
+}

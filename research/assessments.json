@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "assessments": [
+    {
+      "id": "T-AREA",
+      "technology": "Graphene area convention",
+      "entity_ids": [
+        "E-GS"
+      ],
+      "claim_ids": [
+        "C02"
+      ],
+      "evidence_stage": "literature_checked",
+      "disposition": "replicate",
+      "reviewed_on": "2026-10-29",
+      "rationale": "The cited ideal-sheet convention differs from the source number by a factor of 2.714829.",
+      "limitation": "A theoretical two-face area is not a measured accessible surface area or a one-face footprint.",
+      "next_gate": {
+        "question": "Which physical quantity did 7,140 m²/g describe?",
+        "required_record": "Original numerical reference, mass basis and face convention",
+        "acceptance_condition": "The same quantity and units reconcile the source and reference, or the source number is corrected."
+      }
+    },
+    {
+      "id": "T-FILM",
+      "technology": "CVD film quality and research lineage",
+      "entity_ids": [
+        "E-GS"
+      ],
+      "claim_ids": [
+        "C03",
+        "C04"
+      ],
+      "evidence_stage": "literature_checked",
+      "disposition": "design_test",
+      "reviewed_on": "2026-10-29",
+      "rationale": "A production-method label does not establish universal quality; corporate priority needs a specific research-to-company chain.",
+      "limitation": "Inspected paper abstracts cannot characterize a current production lot or resolve licensing history.",
+      "next_gate": {
+        "question": "Which quality and lineage claims can be tied to a named process version?",
+        "required_record": "Spatial sampling plan, defect criteria, yield record and attribution documents",
+        "acceptance_condition": "Quality is bounded by sampling and acceptance criteria; priority names the precise advance and attributable party."
+      }
+    },
+    {
+      "id": "T-HEAT",
+      "technology": "Task energy of a graphene cooker",
+      "entity_ids": [
+        "E-GS"
+      ],
+      "claim_ids": [
+        "C05"
+      ],
+      "evidence_stage": "synthetic_only",
+      "disposition": "design_test",
+      "reviewed_on": "2026-10-29",
+      "rationale": "At fixed assumed task efficiency, changing electrical power changes idealized time but not task energy.",
+      "limitation": "The illustrative heat-capture values are not assigned to a product.",
+      "next_gate": {
+        "question": "Does the device use less wall energy at the same task endpoint?",
+        "required_record": "Versioned comparator/load/endpoints, repeated wall-energy measurements and uncertainty",
+        "acceptance_condition": "Comparison holds the useful task constant and reports all runs, measurement uncertainty and excluded conditions."
+      }
+    },
+    {
+      "id": "T-SURFACE",
+      "technology": "Radiator surface and optical assembly claims",
+      "entity_ids": [
+        "E-GS"
+      ],
+      "claim_ids": [
+        "C06",
+        "C07"
+      ],
+      "evidence_stage": "literature_checked",
+      "disposition": "investigate",
+      "reviewed_on": "2026-10-29",
+      "rationale": "Surface conditions and the optical assembly need device-specific evidence.",
+      "limitation": "Current manufacturer pages may describe a different product version; no safety or optical certification is established.",
+      "next_gate": {
+        "question": "What exactly was evaluated on the reported product version?",
+        "required_record": "Version-specific surface map, applicable independent assessment and optical test definition",
+        "acceptance_condition": "A conclusion identifies the evaluated surfaces, access/contact conditions, optical endpoint and unresolved hazards."
+      }
+    }
+  ]
+}

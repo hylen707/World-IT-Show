@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "entities": [
+    {
+      "id": "E-GS",
+      "name": "Graphene Square",
+      "identity_status": "source_reported",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "claim_ids": [
+        "C01",
+        "C04",
+        "C08"
+      ],
+      "research_question": "Which device-level and customer evidence would establish a commercial advantage beyond material-property claims?",
+      "reported_offerings": [
+        {
+          "description": "CVD graphene production is described in the supplied company report.",
+          "source_ids": [
+            "S01"
+          ],
+          "status": "source_reported"
+        },
+        {
+          "description": "Heating appliances are described on manufacturer product pages.",
+          "source_ids": [
+            "S05",
+            "S06"
+          ],
+          "status": "source_reported"
+        }
+      ],
+      "commercial_evidence": {
+        "revenue": null,
+        "funding": null,
+        "customer_deployments": null
+      }
+    }
+  ]
+}
