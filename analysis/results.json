@@ -1,0 +1,57 @@
+{
+  "interpretation": "Illustrative calculations only; no measured or inferred product efficiency.",
+  "area": {
+    "reported_m2_per_g": 7140,
+    "ideal_two_face_m2_per_g": 2630,
+    "corresponding_one_face_m2_per_g": 1315.0,
+    "reported_to_two_face_ratio": 2.714829,
+    "excess_relative_to_two_face_percent": 171.48289,
+    "reported_to_one_face_ratio": 5.429658
+  },
+  "thermal": {
+    "assumed_useful_heat_J": 125400.0,
+    "assumed_useful_heat_Wh": 34.833333,
+    "assumed_baseline_task_efficiency": 0.5,
+    "scenarios": [
+      {
+        "assumed_task_efficiency": 0.4,
+        "modeled_wall_energy_Wh": 87.083333,
+        "modeled_savings_vs_assumed_baseline_percent": -25.0
+      },
+      {
+        "assumed_task_efficiency": 0.5,
+        "modeled_wall_energy_Wh": 69.666667,
+        "modeled_savings_vs_assumed_baseline_percent": 0.0
+      },
+      {
+        "assumed_task_efficiency": 0.6,
+        "modeled_wall_energy_Wh": 58.055556,
+        "modeled_savings_vs_assumed_baseline_percent": 16.666667
+      },
+      {
+        "assumed_task_efficiency": 0.7,
+        "modeled_wall_energy_Wh": 49.761905,
+        "modeled_savings_vs_assumed_baseline_percent": 28.571429
+      },
+      {
+        "assumed_task_efficiency": 0.8,
+        "modeled_wall_energy_Wh": 43.541667,
+        "modeled_savings_vs_assumed_baseline_percent": 37.5
+      }
+    ],
+    "power_comparison": [
+      {
+        "assumed_power_W": 600,
+        "assumed_task_efficiency": 0.5,
+        "modeled_wall_energy_Wh": 69.666667,
+        "idealized_heating_time_seconds": 418.0
+      },
+      {
+        "assumed_power_W": 1200,
+        "assumed_task_efficiency": 0.5,
+        "modeled_wall_energy_Wh": 69.666667,
+        "idealized_heating_time_seconds": 209.0
+      }
+    ]
+  }
+}
