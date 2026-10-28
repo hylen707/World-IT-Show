@@ -1,0 +1,103 @@
+{
+  "reviewed_on": "2026-10-29",
+  "selection_basis": "Maintainer identity, inspectable method, immutable version and local relevance.",
+  "benchmarks": [
+    {
+      "id": "B01",
+      "name": "OpenBB / OpenBQ",
+      "repository": "openbq-org/OpenBB",
+      "commit_sha": "7df7d0c5592bf25be88e87e130a05c71e243d2d8",
+      "commit_date": "2026-10-24T07:01:56Z",
+      "inspected_file": {
+        "path": "openbb_platform/README.md",
+        "blob_sha": "811b768c2b95a47b4e08ba8c1a632abce8d8c08e",
+        "line_start": 3,
+        "line_end": 19,
+        "url": "https://github.com/openbq-org/OpenBB/blob/7df7d0c5592bf25be88e87e130a05c71e243d2d8/openbb_platform/README.md#L3-L19"
+      },
+      "maintainer_reference": "https://openbb.co/company/about/",
+      "practice": "Typed provider boundaries distinguish data sources from analysis.",
+      "implementation_paths": [
+        "research/entities.json",
+        "research/protocol.json"
+      ],
+      "license_note": "Apache-2.0; checked LICENSE lines 1-7",
+      "copying": "No upstream source code or assets copied.",
+      "endorsement": false,
+      "supporting_files": [
+        {
+          "path": "openbb_platform/core/openbb_core/provider/abstract/fetcher.py",
+          "blob_sha": "c876c2dbfc690387bd16ef31f9a451be782cc262",
+          "line_start": 35,
+          "line_end": 56,
+          "url": "https://github.com/openbq-org/OpenBB/blob/7df7d0c5592bf25be88e87e130a05c71e243d2d8/openbb_platform/core/openbb_core/provider/abstract/fetcher.py#L35-L56"
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "name": "Thoughtworks Build Your Own Radar",
+      "repository": "thoughtworks/build-your-own-radar",
+      "commit_sha": "3379de7db36ce86af7b2607429be0b5f888c8120",
+      "commit_date": "2026-04-22T06:17:33Z",
+      "inspected_file": {
+        "path": "README.md",
+        "blob_sha": "fb2e6294d21bb10355d61f3e143c5dcac2b3f26b",
+        "line_start": 19,
+        "line_end": 40,
+        "url": "https://github.com/thoughtworks/build-your-own-radar/blob/3379de7db36ce86af7b2607429be0b5f888c8120/README.md#L19-L40"
+      },
+      "maintainer_reference": "https://www.thoughtworks.com/radar/faq",
+      "practice": "Structured entries carry an explicit assessment and rationale.",
+      "implementation_paths": [
+        "research/assessments.json",
+        "research/STATUS.md"
+      ],
+      "license_note": "AGPL-3.0; repository metadata",
+      "copying": "No upstream source code or assets copied.",
+      "endorsement": false,
+      "supporting_files": [
+        {
+          "path": "src/util/factory.js",
+          "blob_sha": "807104763082a4bc81068a373448fb5a732dc9a7",
+          "line_start": 40,
+          "line_end": 53,
+          "url": "https://github.com/thoughtworks/build-your-own-radar/blob/3379de7db36ce86af7b2607429be0b5f888c8120/src/util/factory.js#L40-L53"
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "MLCommons MLPerf Inference",
+      "repository": "mlcommons/inference",
+      "commit_sha": "3fbc329939999c13d0a7b5e67fb2092287e06047",
+      "commit_date": "2026-09-02T17:02:36Z",
+      "inspected_file": {
+        "path": "README.md",
+        "blob_sha": "003a4fff784cf7da9b16a22c89860c1ae3e19c72",
+        "line_start": 168,
+        "line_end": 173,
+        "url": "https://github.com/mlcommons/inference/blob/3fbc329939999c13d0a7b5e67fb2092287e06047/README.md#L168-L173"
+      },
+      "maintainer_reference": "https://mlcommons.org/benchmarks/inference-datacenter/",
+      "practice": "Reproduction identifies an exact version and workload.",
+      "implementation_paths": [
+        "research/protocol.json",
+        "reproduce.py",
+        "research/snapshot.json"
+      ],
+      "license_note": "Apache-2.0; repository metadata",
+      "copying": "No upstream source code or assets copied.",
+      "endorsement": false,
+      "supporting_files": [
+        {
+          "path": "loadgen/test_settings.h",
+          "blob_sha": "8b354466363ceb2e5f1b2aa1679b436399892d3c",
+          "line_start": 109,
+          "line_end": 120,
+          "url": "https://github.com/mlcommons/inference/blob/3fbc329939999c13d0a7b5e67fb2092287e06047/loadgen/test_settings.h#L109-L120"
+        }
+      ]
+    }
+  ]
+}
