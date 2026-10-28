@@ -10,7 +10,7 @@
 
 | Potential quality | Existing evidence | Current personal-claim limit |
 | --- | --- | --- |
-| Focused inquiry | [Research report](../analysis/REPORT.md) and source-specific questions | The audit question was developed retrospectively with AI assistance |
+| Focused inquiry | [Research report](../analysis/REPORT.md) and source-specific questions | The audit question was developed retrospectively |
 | Source criticism | [Claim ledger](../evidence.json), C02–C08 | Do not say the student performed these checks without verification |
 | Quantitative reasoning | [Inputs](../analysis/model-inputs.json), [code](../tools/analyze.py), [results](../analysis/results.json) | Illustrative calculation, not experimental performance |
 | Reproducibility | [Validator](../tools/validate.py), [mutation tests](../tests/test_evidence.py) | Tool execution is distinct from original activity ownership |

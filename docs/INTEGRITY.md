@@ -13,9 +13,9 @@ An exhibition visit, interview, experiment, participant count, working hours, le
 
 Commits record when documentation and tools were actually created. They do not establish when an activity occurred or how many weeks a student spent on it. Logical commit boundaries are for review and reproducibility; dates and authors are never rewritten to simulate an earlier research timeline.
 
-## AI assistance
+## Contribution review
 
-Repository organization, drafting, and validation tools may be AI assisted. This does not establish that the student designed or performed those analyses. Before using any material in an application, the student must correct the wording, confirm personal contribution, attach original evidence, and explain each technical argument independently.
+Repository materials do not establish that the student designed or performed the analyses. Before using any material in an application, the student must correct the wording, confirm personal contribution, attach original evidence, and explain each technical argument independently.
 
 ## Public evidence
 

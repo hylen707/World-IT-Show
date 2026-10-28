@@ -5,7 +5,7 @@ This is a project quality rubric, not an admissions scoring model or a statement
 | Dimension | Review question | Strong evidence | Insufficient substitute |
 | --- | --- | --- | --- |
 | Intellectual focus | What specific uncertainty does this project investigate? | A bounded question tied to a located observation | A list of impressive technologies |
-| Personal agency | What did the student decide or produce? | Dated originals, change explanations, student verification | AI-authored prose or repository ownership |
+| Personal agency | What did the student decide or produce? | Dated originals, change explanations, student verification | Unverified authorship or repository ownership |
 | Method | Could someone repeat the comparison? | Unit of analysis, inclusion rules, codebook, missing-data treatment | Informal rankings without a denominator |
 | Reasoning | Why does the evidence support the conclusion? | Claim–evidence–warrant chain plus rival explanation | Marketing language treated as measurement |
 | Technical depth | Which system constraints matter? | Data flow, trust boundaries, failure cases, testable trade-offs | Unverified implementation details |

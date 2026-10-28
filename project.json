@@ -11,11 +11,10 @@
   "impact": null,
   "research_question": "Which claims in the Graphene Square company report remain defensible when ideal-material properties are separated from manufactured films, appliance performance, and safety?",
   "question_status": "retrospective_source_grounded",
-  "scope": "AI-assisted retrospective audit of a 43-line company research report; no new physical experiment or verified student contribution.",
+  "scope": "Retrospective audit of a 43-line company research report; no new physical experiment or verified student contribution.",
   "authorship": {
     "original_source_author": null,
-    "student_contribution": null,
-    "repository_assistance": "AI-assisted organization, drafting, and validation; student review pending"
+    "student_contribution": null
   },
   "related_projects": [
     {

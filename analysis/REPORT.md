@@ -6,7 +6,7 @@ This retrospective audit examines a user-supplied Graphene Square company report
 
 ## 한국어 설명
 
-이 자료의 강점은 그래핀을 ‘꿈의 소재’로 소개하는 데서 한 단계 더 나아가, **소재의 특성 → 실제 제조 품질 → 기기 성능 → 안전성** 사이에 어떤 증거가 필요한지 따지는 데 있다. 원문을 지우거나 더 그럴듯하게 고치는 대신, 원문을 보존하고 주장별 근거·반론·한계를 연결했다. 이 분석은 2026년 10월 28일에 AI 도움으로 추가한 사후 검토이며, 학생이 과거에 실험하거나 논문을 검증했다고 서술하지 않는다.
+이 자료의 강점은 그래핀을 ‘꿈의 소재’로 소개하는 데서 한 단계 더 나아가, **소재의 특성 → 실제 제조 품질 → 기기 성능 → 안전성** 사이에 어떤 증거가 필요한지 따지는 데 있다. 원문을 지우거나 더 그럴듯하게 고치는 대신, 원문을 보존하고 주장별 근거·반론·한계를 연결했다. 이 분석은 2026년 10월 28일에 추가한 사후 검토이며, 학생이 과거에 실험하거나 논문을 검증했다고 서술하지 않는다.
 
 ## Scope and method
 
@@ -58,4 +58,4 @@ An original text export may omit diagrams or supplementary measurements. A found
 | Safety | Applicable version-specific independent assessment | Bound a safety claim to evaluated surfaces and conditions |
 | Personal agency | Student-owned drafts, notes, decisions, and explanation | Permit specific contribution claims in a portfolio |
 
-The technical package is inspectable now. The next student contribution should be a defensible choice—correcting a number, narrowing a claim, or executing a feasible protocol—not merely endorsing this generated prose.
+The technical package is inspectable now. The next student contribution should be a defensible choice—correcting a number, narrowing a claim, or executing a feasible protocol—not merely endorsing the report.
