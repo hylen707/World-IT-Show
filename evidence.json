@@ -1,0 +1,388 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Company Research Report: Graphene Square Inc.",
+      "url": "https://docs.google.com/document/d/1M7wj1FGxtPSbD4GpliXoyXTG-Am9ChhBgSYr4OX3HQI/edit",
+      "kind": "original_artifact",
+      "access_state": "read",
+      "inspected_scope": "Full public text export (43 normalized lines); evidence/source-numbered.txt",
+      "limitations": "Source assertions, not independent verification; author and activity context unknown.",
+      "retrieved_on": "2026-10-28",
+      "author": null
+    },
+    {
+      "id": "S02",
+      "title": "Stoller et al., Graphene-Based Ultracapacitors (2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18788793/",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Author abstract; DOI 10.1021/nl802558y",
+      "limitations": "Abstract only; theoretical sheet area is not a measured area of a commercial film.",
+      "retrieved_on": "2026-10-28",
+      "author": "Stoller et al., Graphene-Based Ultracapacitors (2008)"
+    },
+    {
+      "id": "S03",
+      "title": "Bae et al., Roll-to-roll production of 30-inch graphene films (2010)",
+      "url": "https://www.nature.com/articles/nnano.2010.132",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Publisher abstract; DOI 10.1038/nnano.2010.132",
+      "limitations": "Abstract only; publication establishes this research result, not legal priority or current factory performance.",
+      "retrieved_on": "2026-10-28",
+      "author": "Bae et al., Roll-to-roll production of 30-inch graphene films (2010)"
+    },
+    {
+      "id": "S04",
+      "title": "Yu et al., Control and characterization of individual grains and grain boundaries (2011)",
+      "url": "https://www.nature.com/articles/nmat3010",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Publisher abstract; DOI 10.1038/nmat3010",
+      "limitations": "Specific research samples, not direct examination of Graphene Square products.",
+      "retrieved_on": "2026-10-28",
+      "author": "Yu et al., Control and characterization of individual grains and grain boundaries (2011)"
+    },
+    {
+      "id": "S05",
+      "title": "Graphene Square — Graphene Radiator",
+      "url": "https://www.graphenesq.co.kr/product_en/product01_03.php",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Product description: LCD-reflection visual assembly; front and bottom heating panels",
+      "limitations": "Current manufacturer statement, not independent test or proof of the source report product version.",
+      "retrieved_on": "2026-10-28",
+      "author": "Graphene Square"
+    },
+    {
+      "id": "S06",
+      "title": "Graphene Square — Cordless Graphene Cooker",
+      "url": "https://www.graphenesq.co.kr/product_en/product01_02.php",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Product description: energy-reduction claim and transparent cooking window",
+      "limitations": "Current manufacturer marketing; baseline protocol and uncertainty not supplied in inspected page.",
+      "retrieved_on": "2026-10-28",
+      "author": "Graphene Square"
+    },
+    {
+      "id": "S07",
+      "title": "ASTM C1055-20 — Contact burn injury guide",
+      "url": "https://store.astm.org/standards/c1055",
+      "kind": "official_reference",
+      "access_state": "partial",
+      "inspected_scope": "Public scope §1.2–1.4",
+      "limitations": "Public scope only; no full standard, certification, product test, or individual injury assessment.",
+      "retrieved_on": "2026-10-28",
+      "author": "ASTM C1055-20"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O01",
+      "source_id": "S01",
+      "locator": "L14-L15",
+      "summary": "The report assigns approximately 7,140 square metres per gram to graphene.",
+      "classification": "source_reported"
+    },
+    {
+      "id": "O02",
+      "source_id": "S01",
+      "locator": "L28-L31",
+      "summary": "The report attributes world-first roll-to-roll CVD methodology and defect-free large-area monolayers to the company.",
+      "classification": "source_reported"
+    },
+    {
+      "id": "O03",
+      "source_id": "S01",
+      "locator": "L33-L35",
+      "summary": "The report describes a planar-heater cooker and claims better efficiency than conventional coils without measurement details.",
+      "classification": "source_reported"
+    },
+    {
+      "id": "O04",
+      "source_id": "S01",
+      "locator": "L36-L39",
+      "summary": "The report links an 80°C exterior limit to absence of burns and describes holographic visuals.",
+      "classification": "source_reported"
+    },
+    {
+      "id": "O05",
+      "source_id": "S01",
+      "locator": "L21-L24; L40-L43",
+      "summary": "The report gives 2012 as incorporation year and describes expansion toward consumer appliances and industrial supply chains.",
+      "classification": "source_reported"
+    },
+    {
+      "id": "O06",
+      "source_id": "S02",
+      "locator": "Author abstract, first sentence",
+      "summary": "The authors give a theoretical graphene-sheet surface area of 2,630 square metres per gram.",
+      "classification": "paper_result"
+    },
+    {
+      "id": "O07",
+      "source_id": "S03",
+      "locator": "Publisher abstract and publication date (2010-06-20)",
+      "summary": "The authors report CVD growth and roll-to-roll handling of mostly monolayer 30-inch films; the publication predates the report’s stated 2012 company formation.",
+      "classification": "paper_result"
+    },
+    {
+      "id": "O08",
+      "source_id": "S04",
+      "locator": "Publisher abstract, grain boundaries and transport results",
+      "summary": "The authors identify CVD graphene grain boundaries and report effects on electrical transport.",
+      "classification": "paper_result"
+    },
+    {
+      "id": "O09",
+      "source_id": "S05",
+      "locator": "Product description: Precise temperature control; Thin and highly portable",
+      "summary": "The manufacturer distinguishes a front panel near 75°C/~200 W from a bottom panel near 400°C/~1 kW and describes an LCD-reflection visual arrangement.",
+      "classification": "manufacturer_statement"
+    },
+    {
+      "id": "O10",
+      "source_id": "S06",
+      "locator": "Product description: Flexible structure and smart usability",
+      "summary": "The manufacturer advertises up to 30% power reduction but the inspected passage gives no matched task, baseline appliance, or uncertainty.",
+      "classification": "manufacturer_statement"
+    },
+    {
+      "id": "O11",
+      "source_id": "S07",
+      "locator": "Public scope §1.2",
+      "summary": "The guide makes allowable heated-surface conditions dependent on contact duration, surface configuration, and accepted injury level.",
+      "classification": "standard_scope"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "kind": "source_observation",
+      "text": "The supplied original is a company-focused report on graphene synthesis and heating appliances, rather than a record of controlled appliance measurements.",
+      "evidence_ids": [
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L14-L15"
+        },
+        {
+          "source_id": "S01",
+          "locator": "L28-L31"
+        },
+        {
+          "source_id": "S01",
+          "locator": "L33-L35"
+        },
+        {
+          "source_id": "S01",
+          "locator": "L36-L39"
+        },
+        {
+          "source_id": "S01",
+          "locator": "L21-L24; L40-L43"
+        }
+      ],
+      "reasoning": "The complete 43-line text summarizes properties, company technology, and products but contains no experimental protocol or raw measurements.",
+      "counterargument": "Images or another original revision could contain additional evidence.",
+      "limitation": "This classification covers the retrieved text export only; it does not establish the student’s actual activity.",
+      "status": "supported"
+    },
+    {
+      "id": "C02",
+      "kind": "retrospective_analysis",
+      "text": "The report’s 7,140 m²/g figure should be corrected or justified against the conventional 2,630 m²/g ideal-sheet reference.",
+      "evidence_ids": [
+        "O01",
+        "O06"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L14-L15"
+        },
+        {
+          "source_id": "S02",
+          "locator": "Author abstract, first sentence"
+        }
+      ],
+      "reasoning": "The reported value is about 2.715 times the reference; neither one-sided versus two-sided convention alone yields 7,140.",
+      "counterargument": "A different material, adsorption definition, or structured sample could require a different metric.",
+      "limitation": "The audit diagnoses a mismatch; it does not measure a sample or assert that every graphene-derived porous material has the same area.",
+      "status": "supported"
+    },
+    {
+      "id": "C03",
+      "kind": "retrospective_analysis",
+      "text": "CVD processing alone does not justify a universal defect-free monolayer claim.",
+      "evidence_ids": [
+        "O02",
+        "O08"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L28-L31"
+        },
+        {
+          "source_id": "S04",
+          "locator": "Publisher abstract, grain boundaries and transport results"
+        }
+      ],
+      "reasoning": "A demonstrated CVD route can include boundaries that alter transport; a product claim needs mapped quality and yield evidence.",
+      "counterargument": "A particular advanced process might produce much higher-quality material than the cited samples.",
+      "limitation": "No Graphene Square specimen or current quality-control dataset has been tested here.",
+      "status": "supported"
+    },
+    {
+      "id": "C04",
+      "kind": "retrospective_analysis",
+      "text": "The report’s world-first corporate attribution remains unresolved.",
+      "evidence_ids": [
+        "O02",
+        "O05",
+        "O07"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L28-L31"
+        },
+        {
+          "source_id": "S01",
+          "locator": "L21-L24; L40-L43"
+        },
+        {
+          "source_id": "S03",
+          "locator": "Publisher abstract and publication date (2010-06-20)"
+        }
+      ],
+      "reasoning": "A 2010 roll-to-roll publication precedes the source’s 2012 incorporation date, requiring a distinction between inventor research, patents, and a later company.",
+      "counterargument": "Founders or licensed inventions can predate incorporation; the dates do not refute legitimate technology lineage.",
+      "limitation": "No exhaustive prior-art or ownership search was performed.",
+      "status": "contested"
+    },
+    {
+      "id": "C05",
+      "kind": "retrospective_analysis",
+      "text": "No quantified cooker energy advantage is established by the supplied report or inspected marketing passage.",
+      "evidence_ids": [
+        "O03",
+        "O10"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L33-L35"
+        },
+        {
+          "source_id": "S06",
+          "locator": "Product description: Flexible structure and smart usability"
+        }
+      ],
+      "reasoning": "Thermal conductivity and planar geometry do not specify task-level electrical energy per matched outcome; power is not energy.",
+      "counterargument": "The product could save energy through geometry, control, insulation, or reduced heat loss.",
+      "limitation": "Absence of protocol in the inspected sources is not proof of no efficiency benefit.",
+      "status": "supported"
+    },
+    {
+      "id": "C06",
+      "kind": "retrospective_analysis",
+      "text": "An 80°C figure alone cannot support elimination of contact-burn risk; the current radiator page also distinguishes multiple heating panels.",
+      "evidence_ids": [
+        "O04",
+        "O09",
+        "O11"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L36-L39"
+        },
+        {
+          "source_id": "S05",
+          "locator": "Product description: Precise temperature control; Thin and highly portable"
+        },
+        {
+          "source_id": "S07",
+          "locator": "Public scope §1.2"
+        }
+      ],
+      "reasoning": "Risk assessment needs exposure and construction context; one reported panel temperature cannot establish safety of the whole device.",
+      "counterargument": "The source may refer to another version or an inaccessible heating surface.",
+      "limitation": "This is a wording and evidence audit, not a product safety determination or certification.",
+      "status": "supported"
+    },
+    {
+      "id": "C07",
+      "kind": "retrospective_analysis",
+      "text": "The radiator visual should be described as a manufacturer-reported optical display arrangement, not as graphene independently producing holograms.",
+      "evidence_ids": [
+        "O04",
+        "O09"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L36-L39"
+        },
+        {
+          "source_id": "S05",
+          "locator": "Product description: Precise temperature control; Thin and highly portable"
+        }
+      ],
+      "reasoning": "The manufacturer attributes the visual effect to an LCD-reflection assembly combined with transparent heating.",
+      "counterargument": "Marketing may use holographic for a perceived three-dimensional effect without formal wavefront reconstruction.",
+      "limitation": "Optical architecture and image quality have not been independently inspected.",
+      "status": "supported"
+    },
+    {
+      "id": "C08",
+      "kind": "source_observation",
+      "text": "Industrial supply-chain expansion is an outlook statement in the supplied report, not a verified customer adoption result.",
+      "evidence_ids": [
+        "O05"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S01",
+          "locator": "L21-L24; L40-L43"
+        }
+      ],
+      "reasoning": "No named contract, shipment, or audited sales evidence accompanies this outlook in the source text.",
+      "counterargument": "Independent company disclosures could substantiate customer adoption later.",
+      "limitation": "No conclusion about actual commercial success or failure is drawn.",
+      "status": "supported"
+    },
+    {
+      "id": "P01",
+      "kind": "proposal",
+      "text": "Perform a matched-endpoint energy comparison only after student ownership, equipment access, and a safe supervised protocol are confirmed.",
+      "evidence_ids": [],
+      "source_locators": [],
+      "reasoning": "Task-level energy and repeatability can test a concrete efficiency claim.",
+      "counterargument": "Equipment availability may make a literature-only audit more appropriate.",
+      "limitation": "No physical test has been performed.",
+      "status": "proposed"
+    },
+    {
+      "id": "P02",
+      "kind": "proposal",
+      "text": "For EC4–EC5 synthesis, compare evidence quality and claim boundaries before making cross-event technology trends.",
+      "evidence_ids": [],
+      "source_locators": [],
+      "reasoning": "Different source formats and companies create selection and date confounding.",
+      "counterargument": "A thematic qualitative comparison can still help if it explicitly preserves these differences.",
+      "limitation": "No cross-event result is claimed.",
+      "status": "proposed"
+    }
+  ]
+}
