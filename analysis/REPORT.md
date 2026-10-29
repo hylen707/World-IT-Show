@@ -4,9 +4,6 @@
 
 This retrospective audit examines a user-supplied Graphene Square company report associated with EC4. It asks whether claims about an ideal material justify conclusions about manufactured films, cooking performance, and consumer safety. The complete text export was preserved and mapped to eleven located observations and ten claim records. A primary-paper cross-check identifies a specific-area mismatch; other issues concern attribution, manufacturing quality, endpoint definition, and overbroad safety wording. Two transparent calculations quantify the area discrepancy and the dependence of task energy on heat capture. They are analytical models, not appliance tests. The contribution of this repository is an inspectable chain from source statement to bounded conclusion, with counterarguments and a proposed validation protocol. The original author's identity, the student's personal contribution, and activity dates remain unverified.
 
-## 한국어 설명
-
-이 자료의 강점은 그래핀을 ‘꿈의 소재’로 소개하는 데서 한 단계 더 나아가, **소재의 특성 → 실제 제조 품질 → 기기 성능 → 안전성** 사이에 어떤 증거가 필요한지 따지는 데 있다. 원문을 지우거나 더 그럴듯하게 고치는 대신, 원문을 보존하고 주장별 근거·반론·한계를 연결했다. 이 분석은 2026년 10월 28일에 추가한 사후 검토이며, 학생이 과거에 실험하거나 논문을 검증했다고 서술하지 않는다.
 
 ## Scope and method
 
